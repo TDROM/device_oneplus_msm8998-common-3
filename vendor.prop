@@ -197,3 +197,6 @@ sys.usb.rmnet.func.name=gsi
 
 # Wi-Fi
 wifi.interface=wlan0
+
+# AoD
+persist.debug.force_burn_in=true
