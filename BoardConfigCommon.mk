@@ -68,6 +68,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0
 BOARD_KERNEL_CMDLINE += androidboot.configfs=true
 BOARD_KERNEL_CMDLINE += androidboot.wificountrycode=US
 BOARD_KERNEL_BASE := 0x00000000
+BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET     := 0x02000000
@@ -80,7 +81,7 @@ TARGET_KERNEL_CONFIG := lineage_oneplus5_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # Sepolicy
-#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
