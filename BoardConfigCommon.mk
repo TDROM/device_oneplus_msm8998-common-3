@@ -79,6 +79,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8998
 TARGET_KERNEL_CONFIG := singularity_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_PATH := $(ANDROID_BUILD_TOP)/prebuilts/clang/host/$(HOST_OS)-x86/clang-r328903/bin
 
 # Sepolicy
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
