@@ -499,8 +499,8 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
 
-    <!-- Whether to enable doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
+    <!-- Whether to enable doze always on 
+    <bool name="config_enableDozeAlwaysOn">true</bool> -->
 
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
@@ -514,6 +514,6 @@
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
 
-    <bool name="config_display_rat">false</bool>
+    <!-- <bool name="config_display_rat">false</bool> -->
 
 </resources>
